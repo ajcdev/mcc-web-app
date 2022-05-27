@@ -50,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
                     android:fontFamily="sans-serif"
-                    android:text="Our Specialization"
+                    android:text="@string/our_specialization"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                     android:textColor="#000000"
@@ -65,7 +65,7 @@
                     android:layout_marginTop="40dp"
                     android:layout_marginRight="20dp"
                     android:lineSpacingExtra="8sp"
-                    android:text="We diversified and widen our specialization to fulfill customer’s need. Each department excels and further develop techniques to create a topnotch approach for incoming projects. "
+                    android:text="@string/we_diversified_and_widen_our_specialization_to_fulfill_customer_s_need_each_department_excels_and_further_develop_techniques_to_create_a_topnotch_approach_for_incoming_projects"
                     android:textAlignment="center"
                     android:textColor="#000000"
                     android:textSize="16sp"
@@ -89,23 +89,24 @@
                         android:id="@+id/imageView2"
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="66dp"
+                        android:contentDescription="@string/mechenglogo"
                         app:srcCompat="@drawable/mech_eng" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="25dp"
-                        android:orientation="vertical"
-                        android:paddingRight="25dp">
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView11"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
-                            android:text="Mechanical Engineering"
+                            android:text="@string/mechanical_engineering"
                             android:textColor="#FFFFFF"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -116,7 +117,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lineSpacingExtra="8sp"
-                            android:text="Using the principle of force, energy, motion - engineers ensure that the end products function safely and efficiently."
+                            android:text="@string/using_the_principle_of_force_energy_motion_engineers_ensure_that_the_end_products_function_safely_and_efficiently"
                             android:textColor="#FFFFFF"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -132,24 +133,25 @@
                         android:id="@+id/imageView3"
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="66dp"
+                        android:contentDescription="@string/elecenglogo"
                         app:srcCompat="@drawable/elec_eng" />
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
                         android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:paddingRight="25dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView13"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="45dp"
-                            android:text="Electrical Engineering"
+                            android:text="@string/electrical_engineering"
                             android:textColor="#FFFFFF"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -160,7 +162,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lineSpacingExtra="8sp"
-                            android:text="Mainly develop test and manages the electrical equipments preventing any electrical accidents. "
+                            android:text="@string/mainly_develop_test_and_manages_the_electrical_equipments_preventing_any_electrical_accidents"
                             android:textColor="#FFFFFF"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -176,24 +178,25 @@
                         android:id="@+id/imageView5"
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="70dp"
+                        android:contentDescription="@string/strucenglogo"
                         app:srcCompat="@drawable/struct_eng" />
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
                         android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:paddingRight="25dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView15"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="45dp"
-                            android:text="Structural Engineering"
+                            android:text="@string/structural_engineering"
                             android:textColor="#FFFFFF"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -204,7 +207,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lineSpacingExtra="8sp"
-                            android:text="Ensuring the structures are sturdy and stable by careful planning and supervising."
+                            android:text="@string/ensuring_the_structures_are_sturdy_and_stable_by_careful_planning_and_supervising"
                             android:textColor="#FFFFFF"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -220,24 +223,25 @@
                         android:id="@+id/imageView6"
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="70dp"
+                        android:layout_marginEnd="25dp"
+                        android:contentDescription="@string/plumbservlogo"
                         app:srcCompat="@drawable/plumb_serv" />
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginEnd="25dp"
                         android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:paddingRight="25dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView17"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="45dp"
-                            android:text="Electrical Engineering"
+                            android:text="@string/plumbing_services"
                             android:textColor="#FFFFFF"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -248,7 +252,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lineSpacingExtra="8sp"
-                            android:text="Specialized in handling , controlling, fixings water-related things which is useful in modern structures."
+                            android:text="@string/specialized_in_handling_controlling_fixings_water_related_things_which_is_useful_in_modern_structures"
                             android:textColor="#FFFFFF"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -264,24 +268,25 @@
                         android:id="@+id/imageView7"
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="70dp"
+                        android:layout_marginEnd="25dp"
+                        android:contentDescription="@string/firesafetylogo"
                         app:srcCompat="@drawable/fire_safety" />
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginEnd="25dp"
                         android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:paddingRight="25dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView21"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="45dp"
-                            android:text="Fire and Safety"
+                            android:text="@string/fire_and_safety"
                             android:textColor="#FFFFFF"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -292,7 +297,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lineSpacingExtra="8sp"
-                            android:text="Department handles the preventive measures for fire and ensures structures are fire-safe."
+                            android:text="@string/department_handles_the_preventive_measures_for_fire_and_ensures_structures_are_fire_safe"
                             android:textColor="#FFFFFF"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -308,24 +313,25 @@
                         android:id="@+id/imageView8"
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="70dp"
+                        android:layout_marginEnd="25dp"
+                        android:contentDescription="@string/cctvservlogo"
                         app:srcCompat="@drawable/cctv_serv" />
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginEnd="25dp"
                         android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:paddingRight="25dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView23"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="45dp"
-                            android:text="CCTV Services"
+                            android:text="@string/cctv_services"
                             android:textColor="#FFFFFF"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -336,10 +342,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lineSpacingExtra="8sp"
-                            android:text="Department handles the preventive measures for fire and ensures structures are fire-safe."
+                            android:text="@string/positioning_security_cameras_to_ensure_safety_in_your_home_or_workplace"
                             android:textColor="#FFFFFF"
-                            android:textSize="16sp"
-                            tools:text="Positioning security cameras to ensure safety in your home or workplace." />
+                            android:textSize="16sp" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -353,24 +358,25 @@
                         android:id="@+id/imageView9"
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="70dp"
+                        android:layout_marginEnd="25dp"
+                        android:contentDescription="@string/fitoutlogo"
                         app:srcCompat="@drawable/fitout" />
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginEnd="25dp"
                         android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:paddingRight="25dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView25"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="45dp"
-                            android:text="Fit-Out Work"
+                            android:text="@string/fit_out_work"
                             android:textColor="#FFFFFF"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -381,7 +387,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lineSpacingExtra="8sp"
-                            android:text="Designs and develops building interiors to optimize structure capacity."
+                            android:text="@string/designs_and_develops_building_interiors_to_optimize_structure_capacity"
                             android:textColor="#FFFFFF"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -397,24 +403,25 @@
                         android:id="@+id/imageView10"
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="70dp"
+                        android:layout_marginEnd="25dp"
+                        android:contentDescription="@string/archdesignlogo"
                         app:srcCompat="@drawable/arch_design" />
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginEnd="25dp"
                         android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:paddingRight="25dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView19"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="45dp"
-                            android:text="Architectural Design"
+                            android:text="@string/architectural_design"
                             android:textColor="#FFFFFF"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -425,14 +432,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lineSpacingExtra="8sp"
-                            android:text="Designs and improves house or workplace aesthetics without sacrificing its durability and stability."
+                            android:text="@string/designs_and_improves_house_or_workplace_aesthetics_without_sacrificing_its_durability_and_stability"
                             android:textColor="#FFFFFF"
                             android:textSize="16sp" />
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"></LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -452,7 +455,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="40dp"
                     android:layout_marginRight="30dp"
-                    android:text="Apply for Internship?"
+                    android:text="@string/apply_for_internship"
                     android:textColor="#000000"
                     android:textSize="32sp" />
 
@@ -463,7 +466,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="40dp"
                     android:layout_marginRight="30dp"
-                    android:text="WE ACCEPT INTERNS FROM BOTH COLLEGE AND SENIOR HIGH SCHOOL"
+                    android:text="@string/we_accept_interns_from_both_college_and_senior_high_school"
                     android:textColor="#000000"
                     android:textSize="22sp" />
 
@@ -478,14 +481,14 @@
                         android:id="@+id/college"
                         android:layout_width="161dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="COLLEGE"
+                            android:text="@string/college"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -493,7 +496,7 @@
                             android:id="@+id/textView9"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="• Business"
+                            android:text="@string/business"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -501,7 +504,7 @@
                             android:id="@+id/textView27"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="• Marketing"
+                            android:text="@string/marketing"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -509,7 +512,7 @@
                             android:id="@+id/textView28"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="• Hospitality Management"
+                            android:text="@string/hospitality_management"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -517,7 +520,7 @@
                             android:id="@+id/textView29"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="• Tourism"
+                            android:text="@string/tourism"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -525,7 +528,7 @@
                             android:id="@+id/textView30"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="• Engineering"
+                            android:text="@string/engineering"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -533,7 +536,7 @@
                             android:id="@+id/textView31"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="• Information Technology"
+                            android:text="@string/information_technology"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -543,14 +546,14 @@
                         android:id="@+id/senhigh"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginRight="30dp"
+                        android:layout_marginEnd="30dp"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView33"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="SENIOR HIGH"
+                            android:text="@string/senior_high"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -558,7 +561,7 @@
                             android:id="@+id/textView34"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="• ABM"
+                            android:text="@string/abm"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -566,7 +569,7 @@
                             android:id="@+id/textView35"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="• ICT"
+                            android:text="@string/ict"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -574,7 +577,7 @@
                             android:id="@+id/textView36"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="• STEM"
+                            android:text="@string/stem"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
@@ -592,7 +595,7 @@
                     android:backgroundTint="@color/white"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
-                    android:text="APPLY NOW"
+                    android:text="@string/apply_now"
                     android:textAlignment="center"
                     android:textColor="#732727"
                     android:textSize="20sp"
@@ -605,7 +608,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:text="To apply, you need the following:"
+                    android:text="@string/to_apply_you_need_the_following"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
@@ -615,7 +618,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:text="• Memorandum of Agreement"
+                    android:text="@string/memorandum_of_agreement"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
@@ -625,7 +628,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:text="• Curriculum Vitae or Resume"
+                    android:text="@string/curriculum_vitae_or_resume"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
@@ -636,7 +639,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginBottom="40dp"
-                    android:text="• Endorsement Letter of School"
+                    android:text="@string/endorsement_letter_of_school"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
