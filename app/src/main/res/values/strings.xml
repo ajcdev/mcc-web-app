@@ -1,3 +1,46 @@
 <resources>
-    <string name="app_name">MCC New Design Application</string>
+    <string name="app_name">Drawertest1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MELHAM CONSTRUCTION COMPANY</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_bottom_1">We Provide The Best Service In Industry</string>
+    <string name="nav_bottom_2">No. 27 Commonwealth Avenue Diliman, North Fairview, Quezon City, Philippines.</string>
+    <string name="nav_bottom_3">Copyright © 2022 Melham Construction Corporation Powered by Melham Construction Corporation</string>
+
+
+    <string name="melham_story">
+        MELHAM CONSTRUCTION CORPORATION (MCC), first registered on February 2020 in the Philippine government situated at no.27
+        commonwealth avenue Diliman north Fairview Quezon City.
+    </string>
+
+    <string name="menu_bnpl">Build Now Pay Later</string>
+    <string name="menu_services">Services</string>
+    <string name="menu_projects">Projects</string>
+    <string name="menu_aboutus">About Us</string>
+    <string name="menu_contactus">Contact Us</string>
+
+    <string name="about_us">About Us</string>
+    <string name="our_story_text">MELHAM CONSTRUCTION CORPORATION (MCC), first registered on February 2020 in the Philippine government situated at no.27 commonwealth avenue Diliman north Fairview Quezon City.</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="our_mission_text">Melham Construction Company exists to meet the country’s growing demand for industrialization through diverse specializations, ensuring that each task is handled professionally.</string>
+    <string name="our_mission_text2">This is achieved with the best construction techniques at economical prices to establish client satisfaction and trust. we handle operations with care, resulting in guaranteed high-quality results that meet the clients’ needs. </string>
+    <string name="our_vision">Our Vision</string>
+    <string name="our_vision_text"> To become one of the country’s caterers of the growing demand of  industrialization that brings innovation to the people, all the while having affordable prices with guaranteed quality and efficient service.</string>
+    <string name="core_values">Core Values</string>
+    <string name="cv_one">INTEGRITY</string>
+    <string name="cv_two">QUALITY WORKS</string>
+    <string name="cv_three">PRIDE</string>
+    <string name="cv_four">INNOVATION</string>
+    <string name="what_we_offer">What We Offer</string>
+    <string name="what_we_offer_head1">We Understand Requirements</string>
+    <string name="what_we_offer_text1">Gathering all the necessary information and carefully planning the design to meet client’s prerequisites.</string>
+    <string name="what_we_offer_head2">We Work Precisely</string>
+    <string name="what_we_offer_text2">Integrating designs and carrying out the job with quality and efficiency.</string>
+    <string name="what_we_offer_head3">We Deliver Best Output</string>
+    <string name="what_we_offer_text3">Handling operations with diligence producing a quality building that satisfies client’s needs.</string>
+
 </resources>
