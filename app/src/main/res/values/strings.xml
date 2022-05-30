@@ -45,4 +45,12 @@
     <string name="curriculum_vitae_or_resume">• Curriculum Vitae or Resume</string>
     <string name="endorsement_letter_of_school">• Endorsement Letter of School</string>
     <string name="textview">TextView</string>
+    <string name="botolan">BOTOLAN</string>
+    <string name="botolanpic">botolanpic</string>
+    <string name="telecommunication_tower_ph0301545">Telecommunication Tower (PH0301545)</string>
+    <string name="a_42_meter_high_tower_situated_in_purok_3_brgy_san_juan_botolan_zambales_project_in_partnership_with_the_dito_telecommunity_corporation">A 42-meter high tower situated in Purok 3, Brgy. San Juan, Botolan, Zambales project in partnership with the DITO Telecommunity Corporation.</string>
+    <string name="sta_cruz">STA. CRUZ</string>
+    <string name="stacruzpic">stacruzpic</string>
+    <string name="telecommunication_tower_ph0301887">Telecommunication Tower (PH0301887)</string>
+    <string name="a_42_meter_high_tower_situated_in_eliaed_st_poblacion_north_sta_cruz_zambales_project_in_partnership_with_the_dito_telecommunity_corporation">A 42-meter high tower situated in Eliaed St. Poblacion North, Sta. Cruz, Zambales project in partnership with the DITO Telecommunity Corporation.</string>
 </resources>
