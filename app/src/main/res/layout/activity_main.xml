@@ -35,7 +35,7 @@
             android:layout_height="match_parent"
             android:contentDescription="@string/comppic"
             app:shapeAppearanceOverlay="@style/roundcorners"
-            app:srcCompat="@drawable/compPic" />
+            app:srcCompat="@drawable/comppic" />
 
         <TextView
             android:id="@+id/textView"
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/ongpic"
             app:shapeAppearanceOverlay="@style/roundcorners"
-            app:srcCompat="@drawable/ongPic" />
+            app:srcCompat="@drawable/ongpic" />
 
         <TextView
             android:id="@+id/textView2"
