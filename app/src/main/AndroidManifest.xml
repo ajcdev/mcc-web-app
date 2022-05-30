@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MCCNewDesignApplication">
         <activity
+            android:name=".OngProjectScreen"
+            android:exported="false" />
+        <activity
+            android:name=".CompProjectScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
