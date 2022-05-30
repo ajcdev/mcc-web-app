@@ -22,15 +22,15 @@ public class MainActivity extends AppCompatActivity {
 
         CardView compCard = (CardView) findViewById(R.id.compProj);
         compCard.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this,
+            Intent compintent = new Intent(MainActivity.this,
                     CompProjectScreen.class);
-            startActivity(intent);
+            startActivity(compintent);
         });
         CardView ongCard = (CardView) findViewById(R.id.ongProj);
-        compCard.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this,
+        ongCard.setOnClickListener(v -> {
+            Intent ongintent = new Intent(MainActivity.this,
                     OngProjectScreen.class);
-            startActivity(intent);
+            startActivity(ongintent);
         });
     }
 }
