@@ -57,4 +57,7 @@
     <string name="recent_projects">RECENT PROJECTS</string>
     <string name="ongpic">ongPic</string>
     <string name="ongoing_projects">ONGOING PROJECTS</string>
+    <string name="buildnowpaylater">buildnowpaylater</string>
+    <string name="build_now_pay_later">BUILD NOW, PAY LATER</string>
+    <string name="project_modern_house">PROJECT MODERN HOUSE</string>
 </resources>
