@@ -53,4 +53,8 @@
     <string name="stacruzpic">stacruzpic</string>
     <string name="telecommunication_tower_ph0301887">Telecommunication Tower (PH0301887)</string>
     <string name="a_42_meter_high_tower_situated_in_eliaed_st_poblacion_north_sta_cruz_zambales_project_in_partnership_with_the_dito_telecommunity_corporation">A 42-meter high tower situated in Eliaed St. Poblacion North, Sta. Cruz, Zambales project in partnership with the DITO Telecommunity Corporation.</string>
+    <string name="comppic">compPic</string>
+    <string name="recent_projects">RECENT PROJECTS</string>
+    <string name="ongpic">ongPic</string>
+    <string name="ongoing_projects">ONGOING PROJECTS</string>
 </resources>

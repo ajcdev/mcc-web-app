@@ -1,6 +1,7 @@
 package com.example.mccnewdesignapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,13 +11,16 @@ import android.view.Window;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getSupportActionBar().hide();
+        CardView compCard = (CardView) findViewById(R.id.compProj);
+        compCard.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,
+                    CompProjectScreen.class);
+            startActivity(intent);
+        });
     }
 }
