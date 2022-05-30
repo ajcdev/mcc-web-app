@@ -11,15 +11,25 @@ import android.view.Window;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //getSupportActionBar().hide();
+
         CardView compCard = (CardView) findViewById(R.id.compProj);
         compCard.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this,
                     CompProjectScreen.class);
+            startActivity(intent);
+        });
+        CardView ongCard = (CardView) findViewById(R.id.ongProj);
+        compCard.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,
+                    OngProjectScreen.class);
             startActivity(intent);
         });
     }
