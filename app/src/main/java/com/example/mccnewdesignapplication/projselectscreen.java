@@ -3,6 +3,7 @@ package com.example.mccnewdesignapplication;
 import android.media.Image;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -14,16 +15,16 @@ import android.widget.ImageView;
 
 public class projselectscreen extends Fragment {
 
-    ImageView btnComp;
-    ImageView btnOng;
+    CardView btnComp;
+    CardView btnOng;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_compproject, container, false);
 
-        btnComp = (ImageView) getView().findViewById(R.id.compProj);
-        btnOng = (ImageView) getView().findViewById(R.id.ongProj);
+        btnComp = (CardView) getView().findViewById(R.id.compProj);
+        btnOng = (CardView) getView().findViewById(R.id.ongProj);
 
         btnComp.setOnClickListener(new View.OnClickListener() {
             @Override
