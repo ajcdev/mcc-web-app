@@ -66,7 +66,11 @@ public class projselectscreen extends Fragment {
         btnComp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getParentFragmentManager().beginTransaction().replace(R.id.fragmentContainerView2, new compproject()).commit();
+                Fragment compFrag = new compproject();
+                FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragmentContainerView2,compFrag);
+                transaction.addToBackStack(null);
+                transaction.commit();
             }
         });
 
@@ -76,6 +80,6 @@ public class projselectscreen extends Fragment {
                 getParentFragmentManager().beginTransaction().replace(R.id.fragmentContainerView2, new ongproject()).commit();
             }
         });
-        return inflater.inflate(R.layout.fragment_projselectscreen, container, false);
+        return view;
     }
 }
