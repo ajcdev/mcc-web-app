@@ -2,6 +2,8 @@ package com.example.mccnewdesignapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -20,17 +22,31 @@ public class MainActivity extends AppCompatActivity {
         //requestWindowFeature(Window.FEATURE_NO_TITLE);
         //getSupportActionBar().hide();
 
-        CardView compCard = (CardView) findViewById(R.id.compProj);
-        compCard.setOnClickListener(v -> {
-            Intent compintent = new Intent(MainActivity.this,
-                    CompProjectScreen.class);
-            startActivity(compintent);
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Button btncomp = findViewById(R.id.compProj);
+        btncomp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fragmentContainerView, compproject.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+            }
         });
-        CardView ongCard = (CardView) findViewById(R.id.ongProj);
-        ongCard.setOnClickListener(v -> {
-            Intent ongintent = new Intent(MainActivity.this,
-                    OngProjectScreen.class);
-            startActivity(ongintent);
+
+        Button btnong = findViewById(R.id.ongProj);
+        btnong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fragmentContainerView, ongproject.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+            }
         });
+
     }
 }

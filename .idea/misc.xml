@@ -11,8 +11,11 @@
         <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/activity_comp_project_screen.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/activity_complete_project_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/activity_main.xml" value="0.1671388101983003" />
-        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/activity_ong_project_screen.xml" value="0.35" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/activity_ong_project_screen.xml" value="0.2989352989352989" />
         <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/completed_project_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_compproject.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_ongproject.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_projselect.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/ongoing_project_screen.xml" value="0.203125" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/activity_main.xml" value="0.16983695652173914" />
       </map>

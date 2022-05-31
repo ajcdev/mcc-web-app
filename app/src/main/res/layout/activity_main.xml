@@ -1,92 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="412dp"
-        android:layout_height="64dp"
-        android:background="@color/white"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/compProj"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="255dp"
-        android:layout_margin="25dp"
-        android:layout_marginBottom="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/ongProj"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:orientation="vertical">
 
-        <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/compPic"
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView2"
+            android:name="com.example.mccnewdesignapplication.projselect"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/comppic"
-            app:shapeAppearanceOverlay="@style/roundcorners"
-            app:srcCompat="@drawable/comppic" />
+            android:layout_height="match_parent" />
+    </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="210dp"
-            android:layout_marginEnd="10dp"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="8"
-            android:shadowDy="8"
-            android:shadowRadius="4"
-            android:text="@string/recent_projects"
-            android:textAlignment="textEnd"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/ongProj"
-        android:layout_width="match_parent"
-        android:layout_height="255dp"
-        android:layout_margin="25dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/compProj" >
-
-        <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/ongPic"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/ongpic"
-            app:shapeAppearanceOverlay="@style/roundcorners"
-            app:srcCompat="@drawable/ongpic" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="210dp"
-            android:layout_marginEnd="10dp"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="8"
-            android:shadowDy="8"
-            android:shadowRadius="4"
-            android:text="@string/ongoing_projects"
-            android:textAlignment="textEnd"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </androidx.cardview.widget.CardView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
