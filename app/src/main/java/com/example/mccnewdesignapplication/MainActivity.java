@@ -18,22 +18,6 @@ public class MainActivity extends AppCompatActivity {
         //requestWindowFeature(Window.FEATURE_NO_TITLE);
         //getSupportActionBar().hide();
 
-        CardView btnComp = findViewById(R.id.compProj);
-        CardView btnOng = findViewById(R.id.ongProj);
-
-        btnComp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainerView2, new compproject()).commit();
-            }
-        });
-
-        btnOng.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainerView2, new ongproject()).commit();
-            }
-        });
 
     }
 }
