@@ -7,17 +7,14 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <LinearLayout
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.mccnewdesignapplication.projselectscreen"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="64dp"
-        android:orientation="vertical">
-
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/fragmentContainerView2"
-            android:name="com.example.mccnewdesignapplication.projselectscreen"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
