@@ -60,4 +60,11 @@
     <string name="buildnowpaylater">buildnowpaylater</string>
     <string name="build_now_pay_later">BUILD NOW, PAY LATER</string>
     <string name="project_modern_house">PROJECT MODERN HOUSE</string>
+    <string name="traventine_portico">TRAVENTINE PORTICO</string>
+    <string name="interiordesign">interiordesign</string>
+    <string name="projectmodernhouse">projectmodernhouse</string>
+    <string name="portico">portico</string>
+    <string name="interior_design">INTERIOR DESIGN</string>
+    <string name="esports">esports</string>
+    <string name="esports_haven">ESPORTS HAVEN</string>
 </resources>
