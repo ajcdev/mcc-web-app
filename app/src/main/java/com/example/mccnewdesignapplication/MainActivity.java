@@ -16,20 +16,5 @@ public class MainActivity extends AppCompatActivity {
         //requestWindowFeature(Window.FEATURE_NO_TITLE);
         //getSupportActionBar().hide();
 
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        Button btncomp = findViewById(R.id.compProj);
-        btncomp.setOnClickListener(v -> fragmentManager.beginTransaction()
-                .replace(R.id.fragmentContainerView2, compproject.class, null)
-                .setReorderingAllowed(true)
-                .addToBackStack("name")
-                .commit());
-
-        Button btnong = findViewById(R.id.ongProj);
-        btnong.setOnClickListener(v -> fragmentManager.beginTransaction()
-                .replace(R.id.fragmentContainerView2, ongproject.class, null)
-                .setReorderingAllowed(true)
-                .addToBackStack("name")
-                .commit());
-
     }
 }
