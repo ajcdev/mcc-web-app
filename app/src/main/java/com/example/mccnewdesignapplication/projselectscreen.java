@@ -22,8 +22,8 @@ public class projselectscreen extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_compproject, container, false);
 
-        btnComp = view.findViewById(R.id.compProj);
-        btnOng = view.findViewById(R.id.ongProj);
+        btnComp = (ImageView) getView().findViewById(R.id.compProj);
+        btnOng = (ImageView) getView().findViewById(R.id.ongProj);
 
         btnComp.setOnClickListener(new View.OnClickListener() {
             @Override
