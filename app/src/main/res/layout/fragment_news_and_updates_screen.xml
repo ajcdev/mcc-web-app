@@ -66,6 +66,7 @@
                 android:scaleX="1.1"
                 android:scaleY="1.2"
                 android:src="@drawable/updates"
+                android:clickable="true"
                 tools:ignore="ImageContrastCheck" />
 
             <TextView
