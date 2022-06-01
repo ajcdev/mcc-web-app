@@ -16,7 +16,6 @@
             android:id="@+id/calendar"
             android:layout_width="370dp"
             android:layout_height="190dp"
-            android:layout_marginTop="60dp"
             app:cardCornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

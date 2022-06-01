@@ -8,7 +8,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
-        android:name="com.example.mccnewdesignapplication.services_screen"
+        android:name="com.example.mccnewdesignapplication.news_and_updates_screen"
         android:layout_width="0dp"
         android:layout_height="606dp"
         app:layout_constraintBottom_toBottomOf="parent"
