@@ -8,11 +8,12 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
-        android:name="com.example.mccnewdesignapplication.news_and_updates_screen"
+        android:name="com.example.mccnewdesignapplication.updates_screen"
         android:layout_width="0dp"
         android:layout_height="606dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_news_and_updates_screen" />
 </androidx.constraintlayout.widget.ConstraintLayout>
