@@ -1,6 +1,5 @@
 package com.example.mccnewdesignapplication;
 
-import android.media.Image;
 import android.os.Bundle;
 
 import androidx.cardview.widget.CardView;
@@ -10,7 +9,6 @@ import androidx.fragment.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 
 public class projselectscreen extends Fragment {
