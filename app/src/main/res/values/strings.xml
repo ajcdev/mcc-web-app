@@ -56,4 +56,5 @@
     <string name="sample">sample</string>
     <string name="update_title">UPDATE TITLE</string>
     <string name="placeholder">placeholder</string>
+    <string name="news_title">NEWS TITLE</string>
 </resources>
