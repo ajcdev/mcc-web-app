@@ -61,7 +61,7 @@ public class news_and_updates_screen extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view= inflater.inflate(R.layout.fragment_news_and_updates_screen, container, false);
-        ImageButton btnUpd = (ImageButton) view.findViewById(R.id.updatesbtn);
+        ImageButton btnUpd = view.findViewById(R.id.updatesbtn);
         btnUpd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
