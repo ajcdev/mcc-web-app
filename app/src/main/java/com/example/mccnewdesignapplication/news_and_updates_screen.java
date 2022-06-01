@@ -67,7 +67,7 @@ public class news_and_updates_screen extends Fragment {
         btnUpd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getParentFragmentManager().beginTransaction().replace(R.id.fragmentContainerView, new test()).commit();
+                getParentFragmentManager().beginTransaction().replace(R.id.fragmentContainerView, new updates_screen()).addToBackStack(null).commit();
             }
         });
 
