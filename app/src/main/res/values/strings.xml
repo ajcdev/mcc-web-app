@@ -55,4 +55,5 @@
     <string name="textview2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet molestie dolor. Maecenas rutrum tempus convallis. Pellentesque tristique mi et condimentum semper. Vestibulum at nibh justo. Duis sed bibendum.</string>
     <string name="sample">sample</string>
     <string name="update_title">UPDATE TITLE</string>
+    <string name="placeholder">placeholder</string>
 </resources>
