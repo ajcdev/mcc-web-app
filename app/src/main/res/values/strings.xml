@@ -45,4 +45,7 @@
     <string name="curriculum_vitae_or_resume">• Curriculum Vitae or Resume</string>
     <string name="endorsement_letter_of_school">• Endorsement Letter of School</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calendarbtn">calendarbtn</string>
+    <string name="updatesbtn">updatesbtn</string>
+    <string name="newsbtn">newsbtn</string>
 </resources>
