@@ -44,4 +44,5 @@
     <string name="memorandum_of_agreement">• Memorandum of Agreement</string>
     <string name="curriculum_vitae_or_resume">• Curriculum Vitae or Resume</string>
     <string name="endorsement_letter_of_school">• Endorsement Letter of School</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
