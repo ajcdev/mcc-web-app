@@ -64,11 +64,7 @@ public class projselectscreen extends Fragment {
         btnComp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Fragment compFrag = new compproject();
-                FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
-                transaction.replace(R.id.fragmentContainerView,compFrag);
-                transaction.addToBackStack(null);
-                transaction.commit();
+                getParentFragmentManager().beginTransaction().replace(R.id.fragmentContainerView, new compproject()).commit();
             }
         });
 
