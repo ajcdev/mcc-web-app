@@ -57,4 +57,5 @@
     <string name="update_title">UPDATE TITLE</string>
     <string name="placeholder">placeholder</string>
     <string name="news_title">NEWS TITLE</string>
+    <string name="events_this_month">Events This Month</string>
 </resources>

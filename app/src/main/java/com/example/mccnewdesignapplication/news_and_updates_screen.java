@@ -64,6 +64,7 @@ public class news_and_updates_screen extends Fragment {
 
         ImageButton btnUpd = view.findViewById(R.id.updatesbtn);
         ImageButton btnNews = view.findViewById(R.id.newsbtn);
+        ImageButton btnCal = view.findViewById(R.id.calendarbtn);
 
         btnUpd.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +77,13 @@ public class news_and_updates_screen extends Fragment {
             @Override
             public void onClick(View v) {
                 getParentFragmentManager().beginTransaction().replace(R.id.fragmentContainerView, new news()).addToBackStack(null).commit();
+            }
+        });
+
+        btnCal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getParentFragmentManager().beginTransaction().replace(R.id.fragmentContainerView, new calendar_and_events()).addToBackStack(null).commit();
             }
         });
 
