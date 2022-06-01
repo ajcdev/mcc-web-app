@@ -58,4 +58,7 @@
     <string name="placeholder">placeholder</string>
     <string name="news_title">NEWS TITLE</string>
     <string name="events_this_month">Events This Month</string>
+    <string name="no_events_this_month">No Events This Month</string>
+    <string name="this_is_a_sample_message_for_no_events_stuff">This is a sample message for no events stuff.</string>
+    <string name="noevent">noevent</string>
 </resources>
