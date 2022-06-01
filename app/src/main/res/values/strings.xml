@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MCC New Design Application</string>
+    <string name="construction_services_empower_your_vision">Construction services empower your vision.</string>
+    <string name="you_construct_a_dream_we_will_construct_them_into_reality">You construct a dream. We will construct them into reality.</string>
+    <string name="set_an_appointment">SET AN APPOINTMENT</string>
+    <string name="todo">TODO</string>
+    <string name="background">background</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_melham_construction_corporation">WELCOME TO MELHAM CONSTRUCTION CORPORATION</string>
+    <string name="for_scrolling_purposes">for scrolling purposes</string>
 </resources>

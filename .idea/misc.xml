@@ -3,7 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/activity_main.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/anim_bg.xml" value="0.1835" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/background_1.xml" value="0.1835" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/background_2.xml" value="0.1835" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/background_3.xml" value="0.1835" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/bg_list.xml" value="0.1835" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.186" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/btn_appointment_style.xml" value="0.1835" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/btn_white_bg.xml" value="0.186" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/round_corners.xml" value="0.1835" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/activity_projects.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/fragment_home_build_now_pay_later.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/fragment_home_call_us.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/fragment_news_updates.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.225" />
       </map>
     </option>
   </component>
