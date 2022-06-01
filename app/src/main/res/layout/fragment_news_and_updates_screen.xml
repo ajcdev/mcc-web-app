@@ -17,6 +17,7 @@
             android:layout_width="370dp"
             android:layout_height="190dp"
             android:layout_marginTop="60dp"
+            app:cardCornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -26,8 +27,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/calendarbtn"
+                android:scaleType="center"
                 android:src="@drawable/calendar"
                 tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="20dp"
+                android:shadowColor="#1E1E1E"
+                android:shadowDx="8"
+                android:shadowDy="4"
+                android:shadowRadius="8"
+                android:text="@string/events_calendar"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -35,6 +53,7 @@
             android:layout_width="370dp"
             android:layout_height="190dp"
             android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/calendar">
@@ -44,8 +63,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/updatesbtn"
+                android:scaleType="fitCenter"
+                android:scaleX="1.1"
+                android:scaleY="1.2"
                 android:src="@drawable/updates"
                 tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="20dp"
+                android:shadowColor="#1E1E1E"
+                android:shadowDx="8"
+                android:shadowDy="4"
+                android:shadowRadius="8"
+                android:text="@string/company_updates"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -53,6 +92,7 @@
             android:layout_width="370dp"
             android:layout_height="190dp"
             android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/updates">
@@ -61,9 +101,27 @@
                 android:id="@+id/newsbtn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_gravity="center"
                 android:contentDescription="@string/newsbtn"
+                android:scaleType="center"
                 android:src="@drawable/news"
                 tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="20dp"
+                android:shadowColor="#1E1E1E"
+                android:shadowDx="8"
+                android:shadowDy="4"
+                android:shadowRadius="8"
+                android:text="@string/news"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
