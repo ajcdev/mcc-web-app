@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bnpl">
+
+    <fragment
+        android:id="@+id/nav_bnpl"
+        android:name="com.example.drawertest1.ui.bnpl.BnplFragment"
+        android:label="@string/menu_bnpl"
+        tools:layout="@layout/fragment_bnpl" />
+
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.example.drawertest1.ui.services.ServicesFragment"
+        android:label="@string/menu_services"
+        tools:layout="@layout/fragment_services_screen" />
+
+    <fragment
+        android:id="@+id/nav_projects"
+        android:name="com.example.drawertest1.ui.projects.ProjectsFragment"
+        android:label="@string/menu_projects"
+        tools:layout="@layout/fragment_projects" />
+
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.drawertest1.ui.aboutus.AboutusFragment"
+        android:label="@string/menu_aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.drawertest1.ui.contactus.ContactusFragment"
+        android:label="@string/menu_contactus"
+        tools:layout="@layout/fragment_contactus" />
+
+</navigation>

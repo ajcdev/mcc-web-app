@@ -1,3 +1,130 @@
 <resources>
-    <string name="app_name">MCC New Design Application</string>
+    <string name="app_name">Drawertest1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MELHAM CONSTRUCTION COMPANY</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_bottom_1">We Provide The Best Service In Industry</string>
+    <string name="nav_bottom_2">No. 27 Commonwealth Avenue Diliman, North Fairview, Quezon City, Philippines.</string>
+    <string name="nav_bottom_3">Copyright © 2022 Melham Construction Corporation Powered by Melham Construction Corporation</string>
+
+
+    <string name="melham_story">
+        MELHAM CONSTRUCTION CORPORATION (MCC), first registered on February 2020 in the Philippine government situated at no.27
+        commonwealth avenue Diliman north Fairview Quezon City.
+    </string>
+
+    <string name="menu_bnpl">Build Now Pay Later</string>
+    <string name="menu_services">Services</string>
+    <string name="menu_projects">Projects</string>
+    <string name="menu_aboutus">About Us</string>
+    <string name="menu_contactus">Contact Us</string>
+
+    <string name="about_us">About Us</string>
+    <string name="our_story_text">MELHAM CONSTRUCTION CORPORATION (MCC), first registered on February 2020 in the Philippine government situated at no.27 commonwealth avenue Diliman north Fairview Quezon City.</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="our_mission_text">Melham Construction Company exists to meet the country’s growing demand for industrialization through diverse specializations, ensuring that each task is handled professionally.</string>
+    <string name="our_mission_text2">This is achieved with the best construction techniques at economical prices to establish client satisfaction and trust. we handle operations with care, resulting in guaranteed high-quality results that meet the clients’ needs. </string>
+    <string name="our_vision">Our Vision</string>
+    <string name="our_vision_text"> To become one of the country’s caterers of the growing demand of  industrialization that brings innovation to the people, all the while having affordable prices with guaranteed quality and efficient service.</string>
+    <string name="core_values">Core Values</string>
+    <string name="cv_one">INTEGRITY</string>
+    <string name="cv_two">QUALITY WORKS</string>
+    <string name="cv_three">PRIDE</string>
+    <string name="cv_four">INNOVATION</string>
+    <string name="what_we_offer">What We Offer</string>
+    <string name="what_we_offer_head1">We Understand Requirements</string>
+    <string name="what_we_offer_text1">Gathering all the necessary information and carefully planning the design to meet client’s prerequisites.</string>
+    <string name="what_we_offer_head2">We Work Precisely</string>
+    <string name="what_we_offer_text2">Integrating designs and carrying out the job with quality and efficiency.</string>
+    <string name="what_we_offer_head3">We Deliver Best Output</string>
+    <string name="what_we_offer_text3">Handling operations with diligence producing a quality building that satisfies client’s needs.</string>
+
+    <string name="contactus_text1">Send us a message</string>
+    <string name="contactus_text2">Tell us about your project ideas or simply introduce yourself. We are here to help you develop ideal structures,
+        whether you have a great concept or need some inspiration with a construction project. Allow us to inspire you from conception to completion.</string>
+    <string name="contactus_text3">FIND US HERE
+        BY CLICKING THE MAP</string>
+
+
+
+
+
+    <string name="our_specialization">Our Specialization</string>
+    <string name="we_diversified_and_widen_our_specialization_to_fulfill_customer_s_need_each_department_excels_and_further_develop_techniques_to_create_a_topnotch_approach_for_incoming_projects">We diversified and widen our specialization to fulfill customer’s need. Each department excels and further develop techniques to create a topnotch approach for incoming projects.</string>
+    <string name="mechenglogo">mechenglogo</string>
+    <string name="mechanical_engineering">Mechanical Engineering</string>
+    <string name="using_the_principle_of_force_energy_motion_engineers_ensure_that_the_end_products_function_safely_and_efficiently">Using the principle of force, energy, motion - engineers ensure that the end products function safely and efficiently.</string>
+    <string name="elecenglogo">elecenglogo</string>
+    <string name="electrical_engineering">Electrical Engineering</string>
+    <string name="mainly_develop_test_and_manages_the_electrical_equipments_preventing_any_electrical_accidents">Mainly develop test and manages the electrical equipments preventing any electrical accidents.</string>
+    <string name="strucenglogo">strucenglogo</string>
+    <string name="structural_engineering">Structural Engineering</string>
+    <string name="ensuring_the_structures_are_sturdy_and_stable_by_careful_planning_and_supervising">Ensuring the structures are sturdy and stable by careful planning and supervising.</string>
+    <string name="plumbservlogo">plumbservlogo</string>
+    <string name="plumbing_services">Plumbing Services</string>
+    <string name="specialized_in_handling_controlling_fixings_water_related_things_which_is_useful_in_modern_structures">Specialized in handling , controlling, fixings water-related things which is useful in modern structures.</string>
+    <string name="firesafetylogo">firesafetylogo</string>
+    <string name="fire_and_safety">Fire and Safety</string>
+    <string name="department_handles_the_preventive_measures_for_fire_and_ensures_structures_are_fire_safe">Department handles the preventive measures for fire and ensures structures are fire-safe.</string>
+    <string name="cctvservlogo">cctvservlogo</string>
+    <string name="cctv_services">CCTV Services</string>
+    <string name="positioning_security_cameras_to_ensure_safety_in_your_home_or_workplace">Positioning security cameras to ensure safety in your home or workplace.</string>
+    <string name="fitoutlogo">fitoutlogo</string>
+    <string name="fit_out_work">Fit-Out Work</string>
+    <string name="designs_and_develops_building_interiors_to_optimize_structure_capacity">Designs and develops building interiors to optimize structure capacity.</string>
+    <string name="archdesignlogo">archdesignlogo</string>
+    <string name="architectural_design">Architectural Design</string>
+    <string name="designs_and_improves_house_or_workplace_aesthetics_without_sacrificing_its_durability_and_stability">Designs and improves house or workplace aesthetics without sacrificing its durability and stability.</string>
+    <string name="apply_for_internship">Apply for Internship?</string>
+    <string name="we_accept_interns_from_both_college_and_senior_high_school">WE ACCEPT INTERNS FROM BOTH COLLEGE AND SENIOR HIGH SCHOOL</string>
+    <string name="college">COLLEGE</string>
+    <string name="business">• Business</string>
+    <string name="marketing">• Marketing</string>
+    <string name="hospitality_management">• Hospitality Management</string>
+    <string name="tourism">• Tourism</string>
+    <string name="engineering">• Engineering</string>
+    <string name="information_technology">• Information Technology</string>
+    <string name="senior_high">SENIOR HIGH</string>
+    <string name="abm">• ABM</string>
+    <string name="ict">• ICT</string>
+    <string name="stem">• STEM</string>
+    <string name="apply_now">APPLY NOW</string>
+    <string name="to_apply_you_need_the_following">To apply, you need the following:</string>
+    <string name="memorandum_of_agreement">• Memorandum of Agreement</string>
+    <string name="curriculum_vitae_or_resume">• Curriculum Vitae or Resume</string>
+    <string name="endorsement_letter_of_school">• Endorsement Letter of School</string>
+    <string name="textview">TextView</string>
+    <string name="botolan">BOTOLAN</string>
+    <string name="botolanpic">botolanpic</string>
+    <string name="telecommunication_tower_ph0301545">Telecommunication Tower (PH0301545)</string>
+    <string name="a_42_meter_high_tower_situated_in_purok_3_brgy_san_juan_botolan_zambales_project_in_partnership_with_the_dito_telecommunity_corporation">A 42-meter high tower situated in Purok 3, Brgy. San Juan, Botolan, Zambales project in partnership with the DITO Telecommunity Corporation.</string>
+    <string name="sta_cruz">STA. CRUZ</string>
+    <string name="stacruzpic">stacruzpic</string>
+    <string name="telecommunication_tower_ph0301887">Telecommunication Tower (PH0301887)</string>
+    <string name="a_42_meter_high_tower_situated_in_eliaed_st_poblacion_north_sta_cruz_zambales_project_in_partnership_with_the_dito_telecommunity_corporation">A 42-meter high tower situated in Eliaed St. Poblacion North, Sta. Cruz, Zambales project in partnership with the DITO Telecommunity Corporation.</string>
+    <string name="comppic">compPic</string>
+    <string name="recent_projects">RECENT PROJECTS</string>
+    <string name="ongpic">ongPic</string>
+    <string name="ongoing_projects">ONGOING PROJECTS</string>
+    <string name="buildnowpaylater">buildnowpaylater</string>
+    <string name="build_now_pay_later">BUILD NOW, PAY LATER</string>
+    <string name="project_modern_house">PROJECT MODERN HOUSE</string>
+    <string name="traventine_portico">TRAVENTINE PORTICO</string>
+    <string name="interiordesign">interiordesign</string>
+    <string name="projectmodernhouse">projectmodernhouse</string>
+    <string name="portico">portico</string>
+    <string name="interior_design">INTERIOR DESIGN</string>
+    <string name="esports">esports</string>
+    <string name="esports_haven">ESPORTS HAVEN</string>
+
+
+
+
+
+
+
 </resources>
