@@ -7,6 +7,15 @@
     <string name="background">background</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="welcome_to_melham_construction_corporation">WELCOME TO MELHAM CONSTRUCTION CORPORATION</string>
+    <string name="welcome_to_melham_construction_corporation">Welcome to Melham Construction Corporation</string>
     <string name="for_scrolling_purposes">for scrolling purposes</string>
+    <string name="where_we_build_your_visions">WHERE WE BUILD YOUR VISIONS</string>
+    <string name="a_growing_construction_company_with_diligence_to_improve_client_s_safety_by_applying_up_to_date_construction_techniques_with_quality_and_efficiency_creating_an_outstanding_project">A growing construction company with diligence to improve client’s safety by applying up-to-date construction techniques with quality and efficiency creating an outstanding project.</string>
+    <string name="call_us_today">CALL US TODAY</string>
+    <string name="build_now">BUILD NOW</string>
+    <string name="pay_later">PAY LATER</string>
+    <string name="check">Check</string>
+    <string name="hassle_free_transactions">HASSLE-FREE TRANSACTIONS</string>
+    <string name="customer_based_designs">CUSTOMER-BASED DESIGNS</string>
+    <string name="inquire_now">INQUIRE NOW</string>
 </resources>

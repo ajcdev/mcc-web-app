@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/homeLayout"
     android:layout_width="match_parent"
@@ -9,57 +10,259 @@
     android:padding="0dp"
     tools:context=".HomeFragment">
 
-      <RelativeLayout
-          android:id="@+id/appointment"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:background="@drawable/bg">
 
-         <TextView
-             android:id="@+id/textView2"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginStart="8dp"
-             android:layout_marginTop="381dp"
-             android:fontFamily="@font/poppins_bold"
-             android:shadowColor="#000000"
-             android:shadowDy="2"
-             android:shadowRadius="2"
-             android:text="@string/you_construct_a_dream_we_will_construct_them_into_reality"
-             android:textColor="#FFFFFF"
-             android:textSize="13sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-         <TextView
-             android:id="@+id/textView"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginStart="8dp"
-             android:layout_marginTop="285dp"
-             android:fontFamily="@font/poppins_bold"
-             android:shadowColor="#000000"
-             android:shadowDy="4"
-             android:shadowRadius="4"
-             android:text="@string/construction_services_empower_your_vision"
-             android:textColor="#FFFFFF"
-             android:textSize="32sp" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/appointment"
+            android:layout_width="match_parent"
+            android:layout_height="731dp"
+            android:background="@drawable/bg">
 
-         <Button
-             android:id="@+id/btn_appointment"
-             android:layout_width="350dp"
-             android:layout_height="48dp"
-             android:layout_marginStart="31dp"
-             android:layout_marginTop="419dp"
-             android:backgroundTint="#FFFFFF"
-             android:fontFamily="@font/poppins_semibold"
-             android:letterSpacing="0.2"
-             android:radius="5dp"
-             android:shadowDy="4"
-             android:shadowRadius="4"
-             android:text="@string/set_an_appointment"
-             android:textColor="#0F5C84" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="381dp"
+                android:fontFamily="@font/poppins_bold"
+                android:shadowColor="#000000"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="@string/you_construct_a_dream_we_will_construct_them_into_reality"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-      </RelativeLayout>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="285dp"
+                android:fontFamily="@font/poppins_bold"
+                android:shadowColor="#000000"
+                android:shadowDy="4"
+                android:shadowRadius="4"
+                android:text="@string/construction_services_empower_your_vision"
+                android:textColor="#FFFFFF"
+                android:textSize="32sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
+            <Button
+                android:id="@+id/btn_appointment"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="419dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/poppins_semibold"
+                android:letterSpacing="0.2"
+                android:radius="5dp"
+                android:shadowDy="4"
+                android:shadowRadius="4"
+                android:text="@string/set_an_appointment"
+                android:textColor="#0F5C84"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/callUsToday"
+            android:layout_width="match_parent"
+            android:layout_height="731dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDy="4"
+                android:shadowRadius="4"
+                android:text="@string/welcome_to_melham_construction_corporation"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="271dp"
+                android:fontFamily="@font/poppins_bold"
+                android:shadowColor="#000000"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="@string/where_we_build_your_visions"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="316dp"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="@string/a_growing_construction_company_with_diligence_to_improve_client_s_safety_by_applying_up_to_date_construction_techniques_with_quality_and_efficiency_creating_an_outstanding_project"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_callustoday"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="419dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/poppins_semibold"
+                android:letterSpacing="0.2"
+                android:radius="5dp"
+                android:text="@string/call_us_today"
+                android:textColor="#0F5C84"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/buildNowPayLater"
+            android:layout_width="match_parent"
+            android:layout_height="731dp"
+            android:background="@drawable/bg2">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="123dp"
+                android:layout_marginTop="242dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:shadowColor="#000000"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="@string/hassle_free_transactions"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="123dp"
+                android:layout_marginTop="292dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:shadowColor="#000000"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="@string/customer_based_designs"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="242dp"
+                android:src="@drawable/ic_outline_check_box_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/check" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="292dp"
+                android:contentDescription="@string/check"
+                android:src="@drawable/ic_outline_check_box_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="83dp"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDy="4"
+                android:shadowRadius="4"
+                android:text="@string/build_now"
+                android:textColor="#FFFFFF"
+                android:textSize="48sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:layout_marginTop="155dp"
+                android:fontFamily="@font/poppins_bold"
+                android:shadowColor="#000000"
+                android:shadowDy="4"
+                android:shadowRadius="4"
+                android:text="@string/pay_later"
+                android:textColor="#ECBC31"
+                android:textSize="48sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btn_inquirenow"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="419dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/poppins_semibold"
+                android:letterSpacing="0.2"
+                android:radius="5dp"
+                android:text="@string/inquire_now"
+                android:textColor="#0F5C84"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
 </ScrollView>
 
 
