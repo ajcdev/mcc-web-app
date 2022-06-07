@@ -4,6 +4,9 @@
     <item android:id="@+id/home"
         android:title="Home"
         android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/bnpl"
+        android:title="Buy Now, Pay Later" />
     <item android:id="@+id/newsupdates"
         android:title="News &amp; Updates"
         android:icon="@drawable/ic_news_icon"/>

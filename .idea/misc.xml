@@ -3,23 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/anim_bg.xml" value="0.1835" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/background_1.xml" value="0.1835" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/background_2.xml" value="0.1835" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/background_3.xml" value="0.1835" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/bg_list.xml" value="0.1835" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.186" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/btn_appointment_style.xml" value="0.1835" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/btn_white_bg.xml" value="0.186" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/ic_outline_check_box_24.xml" value="0.1835" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/drawable/round_corners.xml" value="0.1835" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/activity_projects.xml" value="0.22" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/fragment_home.xml" value="0.33" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/fragment_home_build_now_pay_later.xml" value="0.20153985507246377" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/fragment_home_call_us.xml" value="0.22" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/fragment_news_updates.xml" value="0.20425724637681159" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.225" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2115" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.2115" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable/btn_appointment_style.xml" value="0.2115" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2115" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable/ic_news_icon.xml" value="0.2115" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable/round_corner_comp.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable/round_corner_ong.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable/roundcorner.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable/roundcorners.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/drawable/services_border.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/activity_comp_project_screen.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/activity_complete_project_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/activity_ong_project_screen.xml" value="0.2989352989352989" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/completed_project_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_bnpl.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_calendar_and_events.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_compproject.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_news.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_news_and_updates_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_news_updates.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_ongproject.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_projselect.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_projselectscreen.xml" value="0.1890625" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/fragment_updates_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/layout/ongoing_project_screen.xml" value="0.203125" />
+        <entry key="..\:/AndroidStudioProjects/mcc-web-app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MCCNewDesignApplication/app/src/main/res/layout/activity_main.xml" value="0.16983695652173914" />
       </map>
     </option>
   </component>

@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.newsupdates:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, newsUpdatesFragment).commit();
                         return true;
+                    case R.id.bnpl:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, ).
                 }
                 return false;
             }
